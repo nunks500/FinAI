@@ -6,3 +6,15 @@ It was suppose to also store the latest 5 fetches to the website. I chose to do 
 Executable can be find in the /dist/ folder for testing purpouses. The .txt file will be created in the same folder as the executable.
 Comments are present in the code to help you understand the thought process.  
 In some anti-virus it can be be detected as a False-Positive, due to the pyinstaller package introducing some dependencies that create it.
+To compile yourself, use the following command  
+
+#Using CX-freeze
+
+```bash
+python setup.py build
+```
+
+#Using pyinstaller
+```bash
+pyinstaller --onefile script.py
+```
