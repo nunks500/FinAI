@@ -8,12 +8,6 @@ Comments are present in the code to help you understand the thought process.
 In some anti-virus it can be be detected as a False-Positive, due to the pyinstaller package introducing some dependencies that create it.
 To compile yourself, use the following command  
 
-#Using CX-freeze
-
-```bash
-python setup.py build
-```
-
 #Using pyinstaller
 ```bash
 pyinstaller --onefile script.py
